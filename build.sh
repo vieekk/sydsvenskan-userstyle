@@ -1,5 +1,5 @@
 #!/bin/sh
 version=`cat version`
-rm bin/css/*.css
-java -jar lib/yuicompressor.jar src/css/sydsvenskan.user.css -o bin/css/sydsvenskan.user.css
-cp bin/css/sydsvenskan.user.css "bin/css/sydsvenskan-$version.user.css"
+rm bin/*
+java -jar lib/yuicompressor.jar src/sydsvenskan.user.css -o bin/sydsvenskan.user.css
+cp bin/sydsvenskan.user.css "bin/sydsvenskan-$version.user.css"
