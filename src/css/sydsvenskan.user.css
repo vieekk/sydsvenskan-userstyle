@@ -1,0 +1,17 @@
+@-moz-document domain("sydsvenskan.se") {
+	/* center the page, etc. */
+	div.b-page {
+		height: auto !important;
+		margin: 0 auto;
+	}
+
+	/* hide ads */
+	div.b-ad {
+		display: none;
+	}
+
+	/* hide paywalls */
+	#exportHeader > div[id$="Popup"] {
+		display: none !important;
+	}
+}
