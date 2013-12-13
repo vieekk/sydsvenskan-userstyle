@@ -11,9 +11,12 @@ body {
 	background-size: 20px 20px;
 }
 
+div.b-centeredwrapper {
+	width: 1056px;
+}
+
 div.b-page {
 	height: auto !important;
-	margin: 0 auto;
 }
 
 div.article_body_text,
