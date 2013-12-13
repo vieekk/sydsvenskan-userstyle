@@ -1,5 +1,5 @@
+/* http://lea.verou.me/css3patterns/#carbon */
 body {
-	/* http://lea.verou.me/css3patterns/#carbon */
 	background:
 		linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
 		linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
@@ -19,9 +19,15 @@ div.b-page {
 	height: auto !important;
 }
 
+/* sans-serif body text */
 div.article_body_text,
 div.article-content p {
 	font: normal 16px/1.5 Arial, sans-serif;
+}
+
+/* yellow is ugly (gult är fult) */
+div.b-yellowTeaser_content {
+	background-color: #f0f0f0;
 }
 
 /* hide stuff */
