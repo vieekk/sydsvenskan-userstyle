@@ -36,3 +36,19 @@ div.b-site-header-market,
 #exportHeader > div:not(.b-page) {
 	display: none !important;
 }
+
+a.b-site-logo {
+	position: relative;
+}
+
+/* display version */
+a.b-site-logo:after {
+	content: "v$version";
+	background-color: #f0f0f0;
+	font: bold 18px Arial, sans-serif;
+	padding: 5px;
+	border-radius: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 470px;
+}
