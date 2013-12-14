@@ -1,4 +1,5 @@
 /* http://lea.verou.me/css3patterns/#carbon */
+
 body {
 	background:
 		linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -11,45 +12,70 @@ body {
 	background-size: 20px 20px;
 }
 
+/* site is too wide for lower resolutions */
+
 div.b-centeredwrapper {
 	width: 1056px;
 }
+
+/* hide paywalls, ads and stuff */
 
 div.b-page {
 	height: auto !important;
 }
 
-/* sans-serif body text */
+div[id$="Popup"],
+div.b-ad,
+div.b-site-header-market {
+	display: none !important;
+}
+
+/* fonts */
+
+h1.article-title,
+h1.article-title-tablet,
+span.b-stories_first_heading a,
+div.b-blogarticles h1,
+div.b-blogarticles h2 {
+	font: bold 46px/1.1 "Guardian Sans Web", Arial, sans-serif;
+}
+
+div.b-article-heading {
+	font: bold 34px "Guardian Sans Web", Arial, sans-serif;
+}
+
 div.article_body_text,
-div.article-content p {
+div.article-content p,
+.b-blogarticles p {
 	font: normal 16px/1.5 Arial, sans-serif;
 }
 
 /* yellow is ugly (gult är fult) */
+
 div.b-yellowTeaser_content {
 	background-color: #f0f0f0;
 }
 
-/* hide stuff */
-div.b-ad,
-div.b-site-header-market,
-#exportHeader > div:not(.b-page) {
-	display: none !important;
-}
+/* display version */
 
 a.b-site-logo {
 	position: relative;
 }
 
-/* display version */
 a.b-site-logo:after {
 	content: "v$version";
-	background-color: #f0f0f0;
-	font: bold 18px Arial, sans-serif;
-	padding: 5px;
-	border-radius: 3px;
+	background-color: #dc1e46;
+	color: #fff;
+	font: bold 13px Arial, sans-serif;
+	padding: 2px 4px;
+	border-radius: 2px;
 	position: absolute;
 	bottom: 0;
 	left: 470px;
-	cursor: default;
+}
+
+a.b-site-logo:hover:after {
+	content: "v$version\Ahttp://bit.ly/1ddvffP";
+	background-color: #fff;
+	color: #000;
 }
