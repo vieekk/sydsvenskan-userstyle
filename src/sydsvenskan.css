@@ -34,12 +34,12 @@ div.b-site-header-market {
 
 h1, h2, h3, h4, h5, h6, h7,
 h1 *, h2 *, h3 *, h4 *, h5 *, h6 *, h7 *,
-div.b-yellowTeaser_container * {
+div.b-yellowTeaser_container *,
+div.b-blogs_item_first_preamble {
 	font-family: "Guardian Sans Web", Arial, sans-serif !important;
 }
 
 p, p *,
-div.b-blogs_item_first_preamble,
 div.b-blogs_item_preamble {
 	font-family: Arial, sans-serif !important;
 }
