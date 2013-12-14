@@ -32,22 +32,12 @@ div.b-site-header-market {
 
 /* fonts */
 
-h1.article-title,
-h1.article-title-tablet,
-span.b-stories_first_heading a,
-div.b-blogarticles h1,
-div.b-blogarticles h2 {
-	font: bold 46px/1.1 "Guardian Sans Web", Arial, sans-serif;
+h1, h2, h3, h4, h5, h6, h7 {
+	font-family: "Guardian Sans Web", Arial, sans-serif !important;
 }
 
-div.b-article-heading {
-	font: bold 34px "Guardian Sans Web", Arial, sans-serif;
-}
-
-div.article_body_text,
-div.article-content p,
-.b-blogarticles p {
-	font: normal 16px/1.5 Arial, sans-serif;
+p {
+	font-family: Arial, sans-serif !important;
 }
 
 /* yellow is ugly (gult är fult) */
@@ -72,10 +62,11 @@ a.b-site-logo:after {
 	position: absolute;
 	bottom: 0;
 	left: 470px;
+	white-space: pre;
 }
 
 a.b-site-logo:hover:after {
-	content: "v$version\Ahttp://bit.ly/1ddvffP";
+	content: "http://bit.ly/1ddvffP\Av$version";
 	background-color: #fff;
 	color: #000;
 }
