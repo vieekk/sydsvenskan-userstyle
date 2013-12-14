@@ -51,4 +51,5 @@ a.b-site-logo:after {
 	position: absolute;
 	bottom: 0;
 	left: 470px;
+	cursor: default;
 }
