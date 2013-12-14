@@ -32,11 +32,15 @@ div.b-site-header-market {
 
 /* fonts */
 
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4, h5, h6, h7,
+h1 *, h2 *, h3 *, h4 *, h5 *, h6 *, h7 *,
+div.b-yellowTeaser_container * {
 	font-family: "Guardian Sans Web", Arial, sans-serif !important;
 }
 
-p {
+p, p *,
+div.b-blogs_item_first_preamble,
+div.b-blogs_item_preamble {
 	font-family: Arial, sans-serif !important;
 }
 
@@ -62,11 +66,10 @@ a.b-site-logo:after {
 	position: absolute;
 	bottom: 0;
 	left: 470px;
-	white-space: pre;
 }
 
 a.b-site-logo:hover:after {
-	content: "http://bit.ly/1ddvffP\Av$version";
+	content: "bit.ly/1ddvffP\Av$version";
 	background-color: #fff;
 	color: #000;
 }
