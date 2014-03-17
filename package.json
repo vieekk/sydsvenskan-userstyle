@@ -1,0 +1,11 @@
+{
+    "name": "sydsvenskan",
+    "title": "Sydsvenskan.se Userstyle",
+    "version": "0.1.12",
+    "devDependencies": {
+        "grunt": "~0.4.4",
+        "grunt-contrib-cssmin": "~0.9.0",
+        "grunt-text-replace": "~0.3.11",
+        "grunt-contrib-concat": "~0.3.0"
+    }
+}
